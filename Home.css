@@ -1,10 +1,8 @@
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     width: 100%;
     height: 100%;
-
 
 }
 
@@ -24,12 +22,13 @@ body {
 .header p{
     text-align: left;
     padding-right: 50px;
-    font-family: 'Montserrat';
+    font-family: 'Arima Madurai';
     font-weight: bolder;
     max-width: 150px;
     line-height: 0px;
     color: white;
     margin-top: 25px;
+    width: 300px;
 }
 
 .header img{
@@ -58,6 +57,7 @@ body {
     text-decoration: none;
     margin-top: 76px;
     position: static;
+    font-family: 'Montserrat';
 }
 .navbar a:hover {
     color: black;
