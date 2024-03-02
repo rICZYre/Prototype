@@ -210,7 +210,7 @@ body {
     width: 360px;
     height: 440px;
     display: flex;
-    margin-left: 440px;
+    margin-left: 430px;
     margin-right: 10px;
     
 }
@@ -221,7 +221,7 @@ body {
 
 }
 .Location h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Tiro Tamil';
     font-size: 30px;
     margin-bottom: 15px;
     margin-top: 0px;
@@ -254,6 +254,7 @@ body {
     margin-right: 20px;
     line-height: 15px;
     font-size: small;
+    font-family: 'Montserrat';
 }
                                                                        /* rooms div */
 .rooms {
@@ -266,6 +267,16 @@ body {
     margin-bottom: 130px;
     margin-left: 100px;
     margin-right: 110px;
+    font-family: 'Tiro Tamil';
+}
+.rooms .room .title{
+    line-height: 3px;
+}
+.rooms .room .title h3{
+    font-size: 30px;
+    height: fit-content;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 .rooms img{
     width: 500px;
@@ -457,6 +468,7 @@ body {
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
     display: block;
     width: 130px;
     height: 20px;
@@ -495,8 +507,60 @@ body {
     text-align: justify;
     text-align: center;
     margin-left: 115px;
+    text-decoration: none;
     margin-top: 30px;
+    
 }
+.footer img{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: rgb(250, 230, 204);
+    margin-top: 30px;
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    width: 1918px;
+    height: 280px;
+    background: #14274A;
+    display: flex;
+    text-align: left;
+    
+
+}
+.footer p{
+    line-height: 3px;
+}
+.footer .header{
+    margin-right: 50px;
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.footer .contact{
+
+    margin-top: 100px;
+    margin-left: -250;
+    text-align: left;
+
+}
+.footer .fb{
+    margin-top: 14px;
+    margin-left: 100px;
+}
+
+
+
 
 
 
