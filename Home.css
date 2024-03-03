@@ -74,6 +74,9 @@ body {
     margin-top: 58px;
     margin-bottom: 30px;
 }
+.home .header .navbar .home{
+    text-decoration: underline;
+}
 .content{
     margin-top: 150px;
     margin-bottom: 200px;
