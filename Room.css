@@ -1,42 +1,46 @@
-body{
-    width: fit-content;
-    height: fit-content;
+body {
+    margin: 0;
+    font-family: 'Montserrat';
 }
-header{
+.header{
     background-color: #D9B897;
     display: flex;
     padding-top: 20px;
     padding-bottom: 10px;
-    text-align: left;
+    
 }
-.navbar {
-
+.header .navbar {
     padding: 10px;
     text-align: right;
-    font-weight: bolder;
-    margin: 20px;
-    margin-top: 35px;
-    width: 5000px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 100%;
+    font-family: 'Montserrat';
 }
-.navbar a {
+.header .navbar .room{
+    text-decoration: underline;
+}
+.header .navbar a {
     color: #fff;
     text-decoration: none;
     padding: 15px;
 }
-.navbar a:hover {
+.header .navbar a:hover {
     background-color: #9F662E;
 }
 .Reserve {
-    background-color: #007bff;
+    background-color: #E0B973;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
 .Reserve:hover {
-    background-color: #0056b3;
+    background-color: #E0B973;
 }
-.logo img{
+.header .logo img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -44,12 +48,16 @@ header{
     margin-top: 10px;
     margin-left: 40px;
 }
-.logo {
+.header .logo {
     display: flex;
+    line-height: 5px;
     text-align: left;
 
 }
-.logo p{
+.header .logo img{
+    margin-top: 10px;
+}
+.header .logo p{
     text-align: left;
     padding-right: 50px;
     font-family: 'Arima Madurai';
@@ -61,3 +69,83 @@ header{
     width: 300px;
     font: 10px;
 }
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    background: #14274A;
+    max-width: 100%;
+    color: #fff;
+    height: 230px;
+    line-height: 3px;
+    padding-top: 50px;
+
+}
+.footer .footers img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.footer .footers {
+    margin-top: 0px; 
+    text-align: center;
+    height: 230px;
+    display: flex;
+    text-align: left;
+    margin-right: 0px;
+    height: 100px;
+    width: 350px;
+    
+}
+.footer .footers p{
+    font-family: 'Arima Madurai';
+    line-height: 3px;
+}
+.footer .address{
+    font-family: 'Montserrat';
+}
+.footer .contact{
+
+    margin-top: 100px;
+    margin-left: -270px;
+    margin-right: 100px;
+    text-align: left;
+    font-family: 'Montserrat';
+
+}
+.footer .explore{
+    margin-left: 150px;
+    font-family: 'Montserrat';
+}
+.footer .fb{
+    margin-left: 150px;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
