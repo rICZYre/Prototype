@@ -68,6 +68,47 @@ body {
   margin-top: 50px;
 }
 
+.body {
+  margin-bottom: 10px;
+  margin: 100px;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+}
+
+.body img {
+  width: 300px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: -375px;
+}
+
+.body h2 {
+  text-align: center;
+  height: fit-content;
+  width: 300px;
+  margin-left: 550px;
+  margin-right: 100px;
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+.body h6 {
+  width: 200px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.body h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.body .contact_text {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
 .footer {
   display: flex;
   background: #14274a;
