@@ -565,3 +565,8 @@ a {
   margin-top: 14px;
   margin-left: 100px;
 }
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
