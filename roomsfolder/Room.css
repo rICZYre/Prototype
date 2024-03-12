@@ -162,13 +162,14 @@ body {
   color: white;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
   display: block;
   font-weight: bold;
   margin-right: 345px;
   margin-left: 445px;
   width: fit-content;
+  font-family: 'Adobe Garamond Pro';
 
 }
 
@@ -178,7 +179,7 @@ body {
   color: white;
   padding: 2px 5px 2px 5px;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
   display: block;
   margin-left: auto;
@@ -186,6 +187,7 @@ body {
   margin-right: 345px;
   margin-left: 445px;
   width: fit-content;
+  font-family: 'Adobe Garamond Pro';
 }
 
 .info{
