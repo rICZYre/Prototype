@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="Home.css" />
+    <link rel="stylesheet" type="text/css" href="LOGINPAGE.css" />
     <!--                                                                                                
 
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!HOME DIV!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -37,12 +38,67 @@
           <a href="../roomsfolder/Room.html">Rooms</a>
           <a href="../contactfolder/Contact.html">Contact</a>
           <a href="../faqsfolder/Faqs.html">FAQs</a>
-          <a href="../signinfolder/LOGINPAGE.html">Sign In</a>
-          <a href="../reservefolder/FormReservation.html" class="Reserve"
-            >RESERVE NOW</a
-          >
+          <a onclick="openPopup()" class="SignIn" >Log In</a>
         </div>
       </div>
+<!---------------------------------------------------log in popup---------------------------------------------------------------------- -->
+
+      <div id="loginPopup" class="main">
+        <div class="body">
+          <div class="login-text">
+            <p>TENANT LOGIN</p>
+          </div>
+          <div class="welcome-text">
+              <h1>WELCOME!</h1>
+              <hr size="5" color="#9F662E" align="left" width="27%">
+          </div>
+          <div class="user-pass">
+              <p>Username</p>
+              <input type="text" id="userName" name="userName" placeholder="Enter Username">
+          </div>
+          <div class="user-pass">
+              <p>Password</p>
+              <input type="password" id="passWord" name="passWord" placeholder="Enter Password">
+              <a href="../signinfolder/tenant-SignUp.html" style="font-weight: normal; font-size: 15px; color: #9F662E; margin-top: -2px;">Create Account</a>
+          </div>
+          <div style="display: flex;">
+              <a href="#" class="tenant-login"">Login</a>
+              <a onclick="closePopup()" class="tenant-cancel">Cancel</a>
+          </div>
+        </div>
+      </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------Sign Up---------------------------------------------------------------------- -->
+
+    <!-- <div id="loginPopup" class="main">
+      <div class="body">
+        <div class="login-text">
+          <p>TENANT LOGIN</p>
+        </div>
+        <div class="welcome-text">
+            <h1>WELCOME!</h1>
+            <hr size="5" color="#9F662E" align="left" width="27%">
+        </div>
+        <div class="user-pass">
+            <p>Username</p>
+            <input type="text" id="userName" name="userName" placeholder="Enter Username">
+        </div>
+        <div class="user-pass">
+            <p>Password</p>
+            <input type="password" id="passWord" name="passWord" placeholder="Enter Password">
+            <a href="../signinfolder/tenant-SignUp.html">Create your Account</a>
+        </div>
+        <div style="display: flex;">
+            <a href="#" class="tenant-login"">Login</a>
+            <a onclick="closePopup()" class="tenant-cancel">Cancel</a>
+        </div>
+      </div>
+    </div> -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
       <div class="content">
         <h1
           class="title"
@@ -286,5 +342,6 @@
         <p><b>f</b> Facebook</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
